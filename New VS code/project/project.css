@@ -1,0 +1,327 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    color: #FFD700;
+    background-color:#000000   ;
+    max-width: 1440px;
+    font-family: Roboto;
+}
+
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.web-top{
+    position: absolute;
+    width: 1440px;
+    height:70px;
+    display: flex;
+    gap: 3rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2d2d2d;
+    position: sticky;
+    top: 0;
+}
+
+.LOGO-img{
+    position: absolute;
+    left: 30px;
+    width: 60px;
+    height: 50px;
+    color:#FFD700;
+    border-radius: 30px;
+    background-color:   #28262A ;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/img/WhatsApp_Image_2024-03-31_at_12.09.34-removebg-preview.png);
+}
+
+.web-top .top-manu nav{
+    display: flex;
+    gap: 7rem;
+    right: -300px;
+    position: relative;
+    font-size: larger;
+    letter-spacing: 1px;
+    transform: translateX(-305px);
+}
+
+.web-top .top-manu nav > a:hover{
+    color: #FFD700;
+}
+
+nav .a-1::after{
+    content: "";
+    position: absolute;
+    transform: translateX(-60px);
+    width: 0%;
+    height: 5px;
+    border-radius: 25px;
+    bottom: -7px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+nav .a-1:hover::after{
+    width: 7%;
+    height: 5px;
+    background-color: #FFD700;
+}
+
+nav .a-2::after{
+    content: '';
+    position: absolute;
+    left: 170px;
+    right: 200px;
+    width: 0%;
+    height: 5px;
+    border-radius: 25px;
+    bottom: -7px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+nav .a-2:hover::after{
+    width: 10%;
+    height: 5px;
+    background-color: #FFD700;
+}
+
+nav .a-3::after{
+    content: '';
+    position: absolute;
+    transform: translateX(-92px);
+    width: 0%;
+    height: 5px;
+    border-radius: 25px;
+    bottom: -7px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+nav .a-3:hover::after{
+    width: 11%;
+    height: 5px;
+    background-color: #FFD700;
+}
+
+nav .a-4::after{
+    content: '';
+    position: absolute;
+   
+    transform: translateX(-93px);
+    width: 0%;
+    height: 5px;
+    border-radius: 25px;
+    bottom: -7px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+nav .a-4:hover::after{
+    width: 11%;
+    height: 5px;
+    background-color: #FFD700;
+}
+nav .a-5::after{
+    content: '';
+    position: absolute;
+    transform: translateX(-100px);
+    width: 0%;
+    height: 5px;
+    border-radius: 25px;
+    bottom: -7px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+nav .a-5:hover::after{
+    width: 11%;
+    height: 5px;
+    background-color: #FFD700;
+}  
+
+.conten-5top .h1-5 {
+    font-size: 85px;
+    width: 500px;
+    position: absolute;
+    left: 7rem;
+    top: 40px;
+}
+
+.conten-5top .q-5{
+    width:700px;
+    position: absolute;
+    right: 4rem;
+    height: 130px;
+    top: 80px;
+    font-size: 25px;
+    line-height: 2rem;
+}
+
+.conten-midble-5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 3rem;
+}
+
+.conten-midble-5 .img-5 img{
+    object-fit: cover;
+    height: 300px;
+    width: 450px;
+}
+
+.conten-img-5 {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    bottom: -95px;
+    left: -30px;
+    color: #262525;
+    transform: translate(14% );
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 1px 1px 10px 1px #959296;
+    line-height: 25px;
+    transition: all 0.3s ease;
+}
+
+.tag-list{
+    width: 1450px;
+    position: relative;
+    overflow: hidden;
+    top: 150px;
+    border-radius: 2rem;
+    height: 500px;
+}
+
+.inner{
+    width: 1440px;
+    height:400px;
+    display: flex;
+    gap: 2rem;
+    animation: loop 45s linear infinite;
+    background: rgba( 119, 116, 116, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+}
+
+@keyframes loop {
+    0%{
+        transform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(-50%);
+    }
+}
+
+.tag{
+    display: flex;
+    align-items: center;
+    color: #1469d8;
+    background-color: #2a2a2a;
+    padding: 0.7rem 1rem;
+    border-radius: 3rem;
+    box-shadow: 0 0.1rem 0.2rem #00000033;
+    box-shadow: 0 0.1rem 0.5rem #0000004d;
+    box-shadow: 0 0.2rem 1.5rem #00000066;
+}
+
+.contaner-5{
+    height: 600px;
+    width: 1440px;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    transform: translateY(120px);
+}
+.conten-5top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 1200px;
+    height: 100px;
+    transform: translate(150px, -25px);
+}
+
+.conten-5top .h1-5 {
+    font-size: 80px;
+    width: 500px;
+    position: absolute;
+    left: 1rem;
+    top: 0;
+}
+
+.conten-5top .q-5{
+    width:600px;
+    position: absolute;
+    top: 20px;
+    font-size: larger;
+}
+
+.conten-midble-5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 15rem;
+}
+
+.conten-midble-5 .img-5 img{
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.3s ease;
+}
+
+.img-5 {
+    position: relative;
+}
+
+.conten-img-5 {
+    position: absolute;
+    width: 400px;
+    height: 160px;
+    background-color: rgb(255, 255, 255);
+    bottom: -95px;
+    color: #262525;
+    transform: translate(14% );
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 1px 1px 10px 1px #959296;
+    line-height: 20px;
+    transition: all 0.3s ease;
+}
+
+.conten-img-5 > a{
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    color: #656565;
+    display: flex;
+    align-items: center;
+}
+
+.conten-bottom-5 i{
+    color: #FFD700;
+    filter: drop-shadow(8px 5px 5px #2d2d2b);
+}
+
+.conten-bottom-5 q{
+    color: #000000;
+}

@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+body{
+    font-family: Roboto;
+}
+
+.web-top{
+    position: absolute;
+    width: 1460px;
+    height:70px;
+    display: flex;
+    gap: 3rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2d2d2d ;
+}
+
+.LOGO-img{
+    position: absolute;
+    left: 30px;
+    width: 60px;
+    height: 50px;
+    color:#FFD700;
+    border-radius: 30px;
+    background-color:   #28262A ;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/img/WhatsApp_Image_2024-03-31_at_12.09.34-removebg-preview.png);
+}
+
+.web-top .top-manu nav{
+    display: flex;
+    gap: 7rem;
+    right: -300px;
+    position: relative;
+    font-size: larger;
+    letter-spacing: 1px;
+    transform: translateX(-257px);
+}
+
+.web-top .top-manu nav > a{
+    color: #ffffff;
+}
+
+.web-top .top-manu nav > a:hover{
+    color: #FFD700;
+}
+
+nav .a-1::after{
+    content: "";
+    position: absolute;
+    transform: translateX(-60px);
+    width: 0%;
+    height: 5px;
+    border-radius: 25px;
+    bottom: -7px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+nav .a-1:hover::after{
+    width: 7%;
+    height: 5px;
+    background-color: #FFD700;
+}
+
+nav .a-2::after{
+    content: '';
+    position: absolute;
+    left: 170px;
+    right: 200px;
+    width: 0%;
+    height: 5px;
+    border-radius: 25px;
+    bottom: -7px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+nav .a-2:hover::after{
+    width: 10%;
+    height: 5px;
+    background-color: #FFD700;
+}
+
+nav .a-3::after{
+    content: '';
+    position: absolute;
+    transform: translateX(-92px);
+    width: 0%;
+    height: 5px;
+    border-radius: 25px;
+    bottom: -7px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+nav .a-3:hover::after{
+    width: 11%;
+    height: 5px;
+    background-color: #FFD700;
+}
+
+nav .a-4::after{
+    content: '';
+    position: absolute;
+   
+    transform: translateX(-93px);
+    width: 0%;
+    height: 5px;
+    border-radius: 25px;
+    bottom: -7px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+nav .a-4:hover::after{
+    width: 11%;
+    height: 5px;
+    background-color: #FFD700;
+}
+nav .a-5::after{
+    content: '';
+    position: absolute;
+    transform: translateX(-100px);
+    width: 0%;
+    height: 5px;
+    border-radius: 25px;
+    bottom: -7px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+nav .a-5:hover::after{
+    width: 11%;
+    height: 5px;
+    background-color: #FFD700;
+}
+
+.contener-7{
+    width: 1340px;
+    height: 730px;
+    background-color: rgb(31, 31, 91);
+    padding: 60px 150px;
+    position: relative;
+    padding: 60px;
+    transform: translateY(70px);
+}
+
+.contener-7 .top-7{
+    border-bottom: 1px solid #9e9a9a ;
+    height: 170px;
+    width: 1300px;
+    position: absolute;
+    color: #FFD700;
+}
+
+.h1-top-7{
+    font-size: 45px;
+}
+
+.in-top-7 .q-top-7{
+    width: 988px;
+    font-size: 20px;
+}
+
+.contaner-bottom-7{
+    position: absolute;
+    transform: translateY(240px);
+    width: 500px;
+
+}
+
+.connect{
+    transform: translateY(-20px);
+}
+
+.connect .q-7-2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #FFD700;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.connect .q-7-2 a{
+    display: flex;
+    align-items: center;
+    color: #FFD700;
+    gap: 10px;
+}
+
+.q-7-2 i{
+    width: 40px;
+    height:40px;
+    font-size: 20px;
+    background-color: #FFD700;
+    color: #232121;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(1px 1px 2px #FFD700);
+}
+
+.q-7-2-location{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #FFD700;
+    width: 500px;
+    margin-bottom: 15px;
+    transform: translate(145%, -480%);
+}
+
+.q-7-2-location i{
+    width: 40px;
+    height:40px;
+    font-size: 20px;
+    background-color: #FFD700;
+    color: #232121;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(1px 1px 2px #FFD700);
+}
+
+.q-7{
+    width: 300px;
+}
+
+.img-7{
+    background-image: url(/img/WhatsApp_Image_2024-03-31_at_12.09.34-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    right: 0;
+    top: -50px;
+}
+

@@ -1,0 +1,356 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #FFD700;
+    background-color:#000000   ;
+    max-width: 1753px;
+    font-family: Roboto;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.web-top{
+    position: absolute;
+    width: 1440px;
+    height:70px;
+    display: flex;
+    gap: 3rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2d2d2d ;
+}
+
+.LOGO-img{
+    position: absolute;
+    left: 30px;
+    width: 60px;
+    height: 50px;
+    color:#FFD700;
+    border-radius: 30px;
+    background-color:   #28262A ;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/img/WhatsApp_Image_2024-03-31_at_12.09.34-removebg-preview.png);
+}
+
+.web-top .top-manu nav{
+    display: flex;
+    gap: 7rem;
+    right: -525px;
+    position: relative;
+    font-size: larger;
+    letter-spacing: 1px;
+    transform: translateX(-475px);
+}
+
+.web-top .top-manu nav > a:hover{
+    color: #FFD700;
+}
+
+nav .a-1::after{
+    content: "";
+    position: absolute;
+    transform: translateX(-60px);
+    width: 0%;
+    height: 5px;
+    border-radius: 25px;
+    bottom: -7px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+nav .a-1:hover::after{
+    width: 7%;
+    height: 5px;
+    background-color: #FFD700;
+}
+
+nav .a-2::after{
+    content: '';
+    position: absolute;
+    left: 170px;
+    right: 200px;
+    width: 0%;
+    height: 5px;
+    border-radius: 25px;
+    bottom: -7px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+nav .a-2:hover::after{
+    width: 10%;
+    height: 5px;
+    background-color: #FFD700;
+}
+
+nav .a-3::after{
+    content: '';
+    position: absolute;
+    transform: translateX(-92px);
+    width: 0%;
+    height: 5px;
+    border-radius: 25px;
+    bottom: -7px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+nav .a-3:hover::after{
+    width: 11%;
+    height: 5px;
+    background-color: #FFD700;
+}
+
+nav .a-4::after{
+    content: '';
+    position: absolute;
+   
+    transform: translateX(-93px);
+    width: 0%;
+    height: 5px;
+    border-radius: 25px;
+    bottom: -7px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+nav .a-4:hover::after{
+    width: 11%;
+    height: 5px;
+    background-color: #FFD700;
+}
+nav .a-5::after{
+    content: '';
+    position: absolute;
+    transform: translateX(-100px);
+    width: 0%;
+    height: 5px;
+    border-radius: 25px;
+    bottom: -7px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+nav .a-5:hover::after{
+    width: 11%;
+    height: 5px;
+    background-color: #FFD700;
+}  
+
+
+.contener-2{
+    padding: 20px 150px;
+    width: 1440px;
+    position: relative;
+    transform: translateY(450px);
+}
+
+.top-con2{
+    position: absolute;
+    top: -330px;
+    left: 220px;
+    display: flex;
+    gap: 200px;
+    color: #FFD700;
+}
+
+.top-con2 h1{
+    font-size: 70px;
+}
+
+.top-con2 .q-con2 {
+    width: 550px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.gird-con2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-35%);
+    z-index: 999;
+    opacity: 100%;
+}
+
+.card-1{
+    border-radius: 20px;
+    width: 500px;
+    height: 200px;
+    color: #d3d2d2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    font-family: Roboto;
+    line-height: 1.5rem;
+}
+.card-1 #i-2{
+   color:#FFD700 ;
+}
+
+.conten-card{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.card-1:hover{
+    border: 1px solid #f9b60d;
+}
+
+.card-1:hover > .img-card1::before{
+    opacity: 80%;
+}
+.card-1:hover > .img-card2::before{
+    opacity: 80%;
+}
+.card-1:hover > .img-card3::before{
+    opacity: 80%;
+}
+.card-1:hover > .img-card4::before{
+    opacity: 80%;
+}
+
+.img-card1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(/img/istockphoto-975641728-170667a.px.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    width: 500px;
+    height: 200px;
+    z-index: -1;
+    opacity: 100%;
+}
+.img-card1::before{
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: 70%;
+    z-index: -1;
+    transition: 0.5s ease;
+}
+
+.img-card2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(/img/zane-lee-ECsnJcc0Dhs-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    width: 500px;
+    height: 200px;
+    z-index: -1;
+    opacity: 100%;
+}
+.img-card2::before{
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: 70%;
+    z-index: -1;
+    transition: 0.5s ease;
+}
+.img-card3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(/img/kara-eads-buhmhprfo3g-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    width: 500px;
+    height: 200px;
+    z-index: -1;
+    opacity: 80%;
+}
+.img-card3::before{
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: 50%;
+    z-index: -1;
+    transition: 0.5s ease;
+}
+.img-card4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(/img/iloveimg-resized/428636175_370659395905358_3624092965195600073_n.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    width: 500px;
+    height: 200px;
+    z-index: -1;
+    opacity: 70%;
+}
+.img-card4::before{
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: 60%;
+    z-index: -1;
+    transition: 0.5s ease;
+}
+
+
+.gird-con2 .card-1 i{
+    color: #FFD700;
+    font-size: 35px;
+    border-radius: 20%;
+    padding:5px;
+    margin-bottom:10px;
+    width: 30px;
+    height: 30px;
+}
+
+.gird-con2 .card-1 h3{
+    margin-bottom: 10px;
+}
+
+.bottom-con2{
+    position: absolute;
+    bottom: 30px;
+    left: 40.5%;
+    transform: translateX(-40.5);
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    padding: 11px 30px 31px 30px;
+    transition: all 0.1s ease;
+    background: none;
+    color: #FFD700;
+    border-radius: 10px;
+    border: 1px solid #FFD700;
+}

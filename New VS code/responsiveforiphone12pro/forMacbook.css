@@ -1,0 +1,291 @@
+@media screen and (max-width: 1440px){
+    
+    body{
+        max-width: 1440px;
+    }
+
+    .web-top{
+        width: 1440px;
+    }
+
+    .contener-2{
+        width: 1440px;
+    }
+
+    .contaner{
+        left: 0;
+    }
+    .contaner .img{
+        left: 350px;
+    }
+
+    .conten-con .h1-con-1{
+        left: 300px;
+    }
+
+    .conten-con .none{
+        position: absolute;
+        top: 135px;
+        left: 153px;
+        background-color: #807d85;
+        width: 160px;
+        height: 25px;
+        z-index: -1;
+    }
+
+    .conten-con .q-center{
+        line-height: 2rem;
+    }
+
+
+    .btn{
+        margin-top: 25px;
+    }
+    
+    .img{
+        position: relative;
+        top: 60px;
+        left: 500px;
+        height: 530px;
+    }
+
+    .web-top .top-manu nav{
+        display: flex;
+        gap: 7rem;
+        right: -150px;
+        position: relative;
+    }
+
+    .web-top .top-right i{
+        cursor: pointer;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50, -50%);
+    }
+
+    .contener-2{
+        padding: 20px 150px;
+        width: 1440px;
+    }
+
+    .gird-con2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px 180px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-35%);
+        }
+
+        .top-con2 h1{
+            position: absolute;
+            left: 90px;
+            width: 400px;
+            color: #FFD700;
+        }
+        
+        .top-con2 .q-con2 {
+            position: absolute;
+            top: 55px;
+            right: 30px;
+            width: 600px;
+        }
+       
+    .contaner-3{
+            position: relative;
+            width: 1440px;
+            height: 700px;
+            background-color: #575757;
+            padding: 60px 60px;
+        }
+
+        
+        .contaner-3 .conten-3 h1{
+            position: relative;
+            font-size: 80px;
+            top: -100px;
+        }
+
+        .conten-3 .q-3 {
+            text-align: left;
+            width: 422px;
+            line-height: 2rem;
+            font-size: larger;
+        }
+
+        .contaner-3 .conten-3 q{
+            position: relative;
+            top: -20px;
+            font-size: 20px;
+        }
+
+        .conten-3 .list-1 ul{
+            display: flex;
+            gap: 95px;
+            font-size: larger;
+            position: absolute;
+            bottom: 30px;
+            font-size: 20px;
+        }
+
+        .conten-3 .list-1 li{
+            width: 200px;
+        }
+
+        .conten-3 .list-2 ul{
+            display: flex;
+            gap: 128px;
+            position: absolute;
+            bottom: -30px;
+            font-size: 20px;
+        }
+
+        .bottom-con3{
+            top: 50%;
+            left: 50%;
+            transform: translate(85%, 300%);
+            width: 150px;
+        }
+
+        .conten-3 video{
+            position: absolute;
+            left: 30rem;
+            bottom: 8rem;
+            width: 490px;
+            height: 400px;
+        }
+
+        .contaner-3 .img-3 img{
+            position: absolute;
+            top: 80px;
+            width: 350px;
+            height: 520px;
+        }
+
+    .contaner-4{
+        width: 1440px;
+    }
+
+    .contaner-5{
+            padding: 0 0;
+            height: 700px;
+            width: 1440px;
+        }    
+        
+
+        .conten-5top .h1-5 {
+            font-size: 50px;
+            width: 500px;
+            position: absolute;
+            left: 10rem;
+            top: 150;
+        }
+        
+        .conten-5top .q-5{
+            width:500px;
+            position: absolute;
+            right: 10rem;
+            font-size: larger;
+        }
+
+        .conten-midble-5{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            gap: 3rem;
+        }
+
+    .contener-7{
+            width: 1440px;
+            height: 700px;
+            background-color: rgb(31, 31, 91);
+            padding: 60px 60px;
+            position: relative;
+        }
+
+        .contener-7 .top-7 .in-top-7{
+            width: 988px;
+        }
+
+        .contener-7 .top-7{
+            border-bottom: 1px solid #9e9a9a ;
+            height: 200px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0;
+            margin: 0;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% , -180%);
+        }
+
+        .q-7-2{
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            position: absolute;
+            color: #FFD700;
+            gap: 10px;
+            bottom: 50px;
+        }
+
+        
+        .q-7-2 i{
+            width: 30px;
+            height:30px;
+            background-color: #FFD700;
+            color: #232121;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            filter: drop-shadow(1px 1px 2px #FFD700);
+        }
+        
+        .q-7{
+            width: 130px;
+        }
+        
+        .q-7-2-2{
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            position: absolute;
+            color: #FFD700;
+            gap: 10px;
+            position: absolute;
+            bottom: 5px;
+        }
+
+        .q-7-2-2 i{
+            width: 30px;
+            height:30px;
+            background-color: #FFD700;
+            color: #232121;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            filter: drop-shadow(1px 1px 2px #FFD700);
+        }
+        
+        .q-7-1{
+            width: 650px;
+            height: 200px;
+            position: absolute;
+            left: 0;
+            top: 6px;
+        }
+
+        .mySlides img{
+            position: relative;
+            top: -10px;
+            left: 900px;
+        }
+    }

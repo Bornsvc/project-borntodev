@@ -1,0 +1,185 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #FFD700;
+    background-color:#000000   ;
+    max-width: 1753px;
+    font-family: Roboto;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.web-top{
+    position: absolute;
+    width: 1440px;
+    height:70px;
+    display: flex;
+    gap: 3rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2d2d2d;
+    position: sticky;
+    top: 0;
+}
+
+.LOGO-img{
+    position: absolute;
+    left: 30px;
+    width: 60px;
+    height: 50px;
+    color:#FFD700;
+    border-radius: 30px;
+    background-color:   #28262A ;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/img/WhatsApp_Image_2024-03-31_at_12.09.34-removebg-preview.png);
+}
+
+.web-top .top-manu nav{
+    display: flex;
+    gap: 7rem;
+    right: -300px;
+    position: relative;
+    font-size: larger;
+    letter-spacing: 1px;
+    transform: translateX(-250px);
+}
+
+.web-top .top-manu nav > a:hover{
+    color: #FFD700;
+}
+
+nav .a-1::after{
+    content: "";
+    position: absolute;
+    transform: translateX(-60px);
+    width: 0%;
+    height: 5px;
+    border-radius: 25px;
+    bottom: -7px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+nav .a-1:hover::after{
+    width: 7%;
+    height: 5px;
+    background-color: #FFD700;
+}
+
+nav .a-2::after{
+    content: '';
+    position: absolute;
+    left: 170px;
+    right: 200px;
+    width: 0%;
+    height: 5px;
+    border-radius: 25px;
+    bottom: -7px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+nav .a-2:hover::after{
+    width: 10%;
+    height: 5px;
+    background-color: #FFD700;
+}
+
+nav .a-3::after{
+    content: '';
+    position: absolute;
+    transform: translateX(-92px);
+    width: 0%;
+    height: 5px;
+    border-radius: 25px;
+    bottom: -7px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+nav .a-3:hover::after{
+    width: 11%;
+    height: 5px;
+    background-color: #FFD700;
+}
+
+nav .a-4::after{
+    content: '';
+    position: absolute;
+   
+    transform: translateX(-93px);
+    width: 0%;
+    height: 5px;
+    border-radius: 25px;
+    bottom: -7px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+nav .a-4:hover::after{
+    width: 11%;
+    height: 5px;
+    background-color: #FFD700;
+}
+nav .a-5::after{
+    content: '';
+    position: absolute;
+    transform: translateX(-100px);
+    width: 0%;
+    height: 5px;
+    border-radius: 25px;
+    bottom: -7px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+nav .a-5:hover::after{
+    width: 11%;
+    height: 5px;
+    background-color: #FFD700;
+}
+
+.contaner-4{
+    width: 1440px;
+    height: 800px;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 30px;
+    border: 1px solid red;
+}
+
+.conten-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border: 1px solid red;
+    text-align: center;
+    gap: 100px;
+}
+
+.contaner-4 .h1-4{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    font-size: 35px;
+}
+
+.process1 > ul > li{
+    margin-top: 10px;
+}
+
+
+
